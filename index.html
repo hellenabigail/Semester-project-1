@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abby Medics - Quality Healthcare 24/7</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Abby<span>Medics</span></a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#doctors">Doctors</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <button class="btn login-btn">Login</button>
+                <button class="btn signup-btn">Sign Up</button>
+            </div>
+            <button class="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <button class="btn login-btn">Login</button>
+        <button class="btn signup-btn">Sign Up</button>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Quality Healthcare <span>24/7</span></h1>
+                <p>Connect with Uganda's top medical professionals anytime, anywhere. Book appointments, get prescriptions, and consult online.</p>
+                <div class="hero-btns">
+                    <button class="btn primary-btn">Book Appointment</button>
+                    <button class="btn secondary-btn">Consult Online</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/healthcare.webp" alt="Doctor and patient">
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item">
+                <h3>500+</h3>
+                <p>Qualified Doctors</p>
+            </div>
+            <div class="stat-item">
+                <h3>24/7</h3>
+                <p>Service Availability</p>
+            </div>
+            <div class="stat-item">
+                <h3>50+</h3>
+                <p>Partner Hospitals</p>
+            </div>
+            <div class="stat-item">
+                <h3>10,000+</h3>
+                <p>Patients Served</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>Appointment Booking</h3>
+                    <p>Book appointments with specialists from top Ugandan hospitals at your convenience.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Online Consultation</h3>
+                    <p>Consult with doctors via secure video, audio, or text chat from anywhere.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-prescription-bottle-alt"></i>
+                    <h3>E-Prescriptions</h3>
+                    <p>Receive digital prescriptions that you can use at any pharmacy in Uganda.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-ambulance"></i>
+                    <h3>Emergency Services</h3>
+                    <p>24/7 emergency contact and ambulance services when you need them most.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Health Monitoring</h3>
+                    <p>Track your health metrics and share them with your doctor for better care.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-file-medical"></i>
+                    <h3>Medical Records</h3>
+                    <p>Secure digital storage for your medical history accessible anytime.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="doctors">
+        <div class="container">
+            <h2 class="section-title">Our Doctors</h2>
+            <div class="doctor-filter">
+                <button class="filter-btn active" data-filter="all">All Specialties</button>
+                <button class="filter-btn" data-filter="cardiology">Cardiology</button>
+                <button class="filter-btn" data-filter="pediatrics">Pediatrics</button>
+                <button class="filter-btn" data-filter="neurology">Neurology</button>
+                <button class="filter-btn" data-filter="orthopedics">Orthopedics</button>
+            </div>
+            <div class="doctors-grid">
+                <!-- Doctor cards will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Patients Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <p>"Abby Medics saved me when I needed urgent consultation while upcountry. The doctor was professional and helpful."</p>
+                    <div class="patient-info">
+                        <img src="images/in2.jpeg" alt="Patient">
+                        <div>
+                            <h4>Sarah K.</h4>
+                            <p>Kampala</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"The appointment system is so convenient. I no longer spend hours waiting at the hospital."</p>
+                    <div class="patient-info">
+                        <img src="images/solidier.avif" alt="Patient">
+                        <div>
+                            <h4>John M.</h4>
+                            <p>Jinja</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p>"Being able to consult with specialists from different hospitals has been a game-changer for my chronic condition."</p>
+                    <div class="patient-info">
+                        <img src="images/review.jpeg" alt="Patient">
+                        <div>
+                            <h4>Grace N.</h4>
+                            <p>Mbarara</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">About Abby Medics</h2>
+                <p>Abby Medics is a leading digital healthcare platform in Uganda, connecting patients with qualified medical professionals from top hospitals across the country.</p>
+                <p>Our mission is to make quality healthcare accessible, affordable, and convenient for everyone through innovative technology solutions.</p>
+                <p>Founded in 2020, we've grown to serve thousands of patients with our network of over 500 doctors and 50 partner hospitals.</p>
+                <button class="btn primary-btn">Learn More</button>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Medical team">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Mbaguta Drive, Mbarara, Uganda</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>+256 700 765456 (24/7 Support)</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@abbymedics.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <p>24/7 Service</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Modal -->
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Login to Your Account</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" required>
+                </div>
+                <button type="submit" class="btn primary-btn">Login</button>
+                <p>Don't have an account? <a href="#" class="switch-to-signup">Sign up</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div class="modal" id="signup-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Create an Account</h2>
+            <form id="signup-form">
+                <div class="form-group">
+                    <label for="signup-name">Full Name</label>
+                    <input type="text" id="signup-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-email">Email</label>
+                    <input type="email" id="signup-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-phone">Phone Number</label>
+                    <input type="tel" id="signup-phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-password">Password</label>
+                    <input type="password" id="signup-password" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-confirm">Confirm Password</label>
+                    <input type="password" id="signup-confirm" required>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="signup-terms" required>
+                    <label for="signup-terms">I agree to the <a href="#">Terms and Conditions</a></label>
+                </div>
+                <button type="submit" class="btn primary-btn">Create Account</button>
+                <p>Already have an account? <a href="#" class="switch-to-login">Login</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Appointment Modal -->
+    <div class="modal" id="appointment-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Book an Appointment</h2>
+            <form id="appointment-form">
+                <div class="form-group">
+                    <label for="appointment-doctor">Select Doctor</label>
+                    <select id="appointment-doctor" required>
+                        <option value="">-- Select Doctor --</option>
+                        <!-- Will be populated by JavaScript -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="appointment-date">Date</label>
+                    <input type="date" id="appointment-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="appointment-time">Time</label>
+                    <input type="time" id="appointment-time" required>
+                </div>
+                <div class="form-group">
+                    <label for="appointment-reason">Reason for Visit</label>
+                    <textarea id="appointment-reason" required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn">Book Appointment</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Abby Medics</h3>
+                    <p>Quality healthcare services accessible 24/7 across Uganda. Connecting patients with top medical professionals.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#doctors">Doctors</a>
+                    <a href="#about">About Us</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <a href="#">Appointments</a>
+                    <a href="#">Online Consultation</a>
+                    <a href="#">E-Prescriptions</a>
+                    <a href="#">Emergency Services</a>
+                    <a href="#">Health Records</a>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Mbaguta Drive, Mbarara, Uganda</p>
+                    <p><i class="fas fa-phone-alt"></i> +256 700 765456</p>
+                    <p><i class="fas fa-envelope"></i> info@abbymedics.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Abby Medics. All Rights Reserved.</p>
+                <div>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
